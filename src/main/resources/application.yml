@@ -1,0 +1,13 @@
+cloud:
+  aws:
+    region:
+      auto: false
+      static: "eu-west-1"
+    credentials:
+      access-key: test
+      secret-key: test
+    endpoint:
+      uri: "http://s3.localhost.localstack.cloud:4566"
+    s3:
+      bucket-name: bucket-test
+      endpoint: "http://s3.localhost.localstack.cloud:4566"
